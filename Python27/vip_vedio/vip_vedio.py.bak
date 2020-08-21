@@ -1,0 +1,54 @@
+# coding=utf-8
+import requests
+import re
+from Tkinter import *
+
+import webbrowser
+
+url = 'http://www.qmaile.com/'
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'}
+response = requests.get(url=url, headers=headers)
+response.encoding = response.apparent_encoding
+response_text = response.text
+print response_text
+
+res = re.compile('<option value="(.*?)" selected="">')
+res_data = re.findall(res, response_text)
+print res_data
+
+one = res_data[0]
+two = res_data[1]
+three = res_data[2]
+four = res_data[3]
+five = res_data[4]
+
+root = Tk()
+root.title('vip播放by-Jm')
+root.geometry('500x350')
+
+var = StringVar()
+l1 = Label(root, text='播放接口', font=10).pack()
+r1 = Radiobutton(root, text='播放接口1', variable=var, value=one).pack()
+r2 = Radiobutton(root, text='播放接口2', variable=var, value=two).pack()
+r3 = Radiobutton(root, text='播放接口3', variable=var, value=three).pack()
+r4 = Radiobutton(root, text='播放接口4', variable=var, value=four).pack()
+r5 = Radiobutton(root, text='播放接口5', variable=var, value=five).pack()
+l1 = Label(root, text='播放链接:', font=10).pack()
+e = StringVar()
+e1 = Entry(root, textvariable=e, width=50).pack()
+
+
+def button_add():
+    webbrowser.open(var.get() + e.get())
+
+
+button = Button(root, text="播放", command=button_add).pack()
+menubar = Menu(root)
+help = Menu(menubar)
+menubar.add_cascade(lable='帮助',menu=help)
+help.add_command(label='输入完链接请点击接口')
+help.add_command(label='接口不行请更换接口')
+root.config(menu=menubar)
+
+root.mainloop()

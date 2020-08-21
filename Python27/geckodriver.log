@@ -1,0 +1,66 @@
+1595320605506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\smujm\\AppData\\Local\\Temp\\rust_mozprofileXC93Yy"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595320607021	Marionette	INFO	Listening on port 58111
+1595320607518	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.78/ns_e_88_3_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.82.0/um.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.82.0/um.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.78/ns_e_88_3_n.js, line 4: WebGL context was lost.
+1595321115902	Marionette	INFO	Stopped listening on port 58111
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+://g.alicdn.com/secdev/nsv/1.0.78/ns_e_88_3_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.3.12/index.js,kg/tb-nav/2.5.11/index-min.js,secdev/sufei_data/3.8.7/index.js, line 6: WebGL context was lost.
+1595320531572	Marionette	INFO	Stopped listening on port 57856
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+;ls_recommend_test=0;top_test_4_liguangyi=1;li_yxxq_aut=A1;se_hi_trunc=0;se_auth_src=0;soc_notification=1;tp_clubhyb=0;top_root=0;li_vip_verti_search=0;zw_sameq_sorce=999;zr_ans_rec=gbrank;tp_club__entrance2=1;se_aa_base=0;se_v046=0;tp_club_fdv4=0;top_v_album=1;li_car_meta=0;ge_ge02=6;se_click_v_v=0;se_college=default;zr_search_paid=1;se_v_drop=0;tp_club_bt=0;top_quality=0;ug_newtag=1;tsp_hotlist_ui=1;se_entity22=0;se_usercard=0;tp_topic_tab=0;tp_m_intro_re_topic=1;li_paid_answer_exp=0;zr_sim3=0;zr_test_aa1=0;zr_art_rec=base;zr_intervene=0;tp_sft=a;tsp_ad_cardredesign=0;pf_noti_entry_num=0;tp_meta_card=0;tp_zrec=0","x-xsrftoken":"686a48a5-1a99-4566-bbc5-f59fb8b080b6"},"credentials":"include","method":"POST","body":{}} failed, status: 400
+JavaScript warning: https://static.zhihu.com/heifetz/vendor.90b6c2c841b0448cdc35.js, line 37: Script terminated by timeout at:
+U@https://static.zhihu.com/heifetz/vendor.90b6c2c841b0448cdc35.js:37:2119
+Kt@https://static.zhihu.com/heifetz/vendor.90b6c2c841b0448cdc35.js:37:23641
+Yt@https://static.zhihu.com/heifetz/vendor.90b6c2c841b0448cdc35.js:37:22859
+vendor_90b6c2c841b0448cdc35</t.unstable_runWithPriority@https://static.zhihu.com/heifetz/vendor.90b6c2c841b0448cdc35.js:45:3844
+qo@https://static.zhihu.com/heifetz/vendor.90b6c2c841b0448cdc35.js:37:44990
+A@https://static.zhihu.com/heifetz/vendor.90b6c2c841b0448cdc35.js:37:114338
+Qt/r<@https://static.zhihu.com/heifetz/vendor.90b6c2c841b0448cdc35.js:37:22534
+i@https://unpkg.zhimg.com/@cfe/sentry-script@latest/dist/init.js:1:19718
+
+JavaScript error: https://dss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.78/ns_e_88_3_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.78/ns_e_88_3_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.14/??swf-min.js,xtemplate-min.js,xtemplate/runtime-min.js,xtemplate/compiler-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js?t=20130804.js, line 24: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.14/??swf-min.js,xtemplate-min.js,xtemplate/runtime-min.js,xtemplate/compiler-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js?t=20130804.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.14/??swf-min.js,xtemplate-min.js,xtemplate/runtime-min.js,xtemplate/compiler-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js?t=20130804.js, line 218: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.14/??swf-min.js,xtemplate-min.js,xtemplate/runtime-min.js,xtemplate/compiler-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js?t=20130804.js, line 148: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.14/??swf-min.js,xtemplate-min.js,xtemplate/runtime-min.js,xtemplate/compiler-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js?t=20130804.js, line 38: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.14/??swf-min.js,xtemplate-min.js,xtemplate/runtime-min.js,xtemplate/compiler-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js?t=20130804.js, line 100: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.14/??swf-min.js,xtemplate-min.js,xtemplate/runtime-min.js,xtemplate/compiler-min.js,overlay-min.js,component/container-min.js,component/control-min.js,component/manager-min.js,component/extension/shim-min.js,component/extension/align-min.js,component/extension/content-xtpl-min.js,component/extension/content-render-min.js?t=20130804.js, line 21: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.78/ns_e_88_3_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.82.0/um.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.82.0/um.js, line 4: WebGL context was lost.
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.82.0/um.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.78/ns_e_88_3_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.82.0/um.js, line 4: WebGL context was lost.
+1595320455912	Marionette	INFO	Stopped listening on port 57217
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
